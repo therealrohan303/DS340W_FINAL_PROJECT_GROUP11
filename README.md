@@ -33,3 +33,32 @@ We use the AmaSum dataset from the SelSum repo...the version with at most 100 re
 - After this, the file should be at this path inside Drive: My Drive / AmaSum / raw_min_10_max_100_revs.zip
 - The notebook expects exactly this path by default.
 Note: If you want to put the file somewhere else in Drive or if you rename it, you will need to update the DATA_ZIP_PATH variable near the top of the notebook to match your own path.
+
+## Downloading and Opening the notebook in Google Colab
+
+You only need to do this once per machine.
+
+- Download the DS340W FINAL CODE.ipynb file from this github.
+- Go to https://colab.research.google.com/
+- Upload the downloaded notebook
+- Optional but recommended: In Colab, change runtime type and set Hardware accelerator to GPU, then save it.
+
+From now on you should be able to reopen the notebook from recents in Colab, instead of uploading again.
+
+## Notebook overview
+
+The notebook is generally organized in the following blocks, each with its own heading:
+- Dataset setup
+- Data and Repo
+- Building gold summaries and input review texts
+- Reproduction
+  - ROUGE
+  - Polarity
+- Enhancement 1. Sentence level evidence attribution
+- Enhancement 2. Pros and cons coverage
+- Enhancement 3. Coverage and evidence aware PoCa
+- Extras
+
+There are some instructions and/or general details in the notebook about the code as well to guide you.
+
+
